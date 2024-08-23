@@ -1,0 +1,54 @@
+.form-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 20px;
+}
+.btn-submit {
+  background-color: var(--primary-color);
+  color: black;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  margin-top: 10px;
+}
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 3px solid var(--primary-color);
+  font-size: 1rem;
+  margin-top: 10px;
+  background-color: rgb(216, 215, 215);
+  color: black;
+  font-weight: bold;
+}
+select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 3px solid var(--primary-color);
+  font-size: 1rem;
+  margin-top: 10px;
+  background-color: var(--primary-color);
+  color: black;
+  font-weight: bold;
+}
+textarea {
+  min-width: 250px;
+  min-height: 100px;
+  resize: vertical;
+  padding: 5px;
+  border-radius: 5px;
+  border: 3px solid var(--primary-color);
+  font-size: 1rem;
+  margin-top: 10px;
+  background-color: rgb(216, 215, 215);
+  color: black;
+  font-weight: bold;
+}
+.error {
+  color: red;
+  font-size: 0.9rem;
+  font-weight: bold;
+}

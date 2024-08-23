@@ -1,0 +1,49 @@
+/* Contenedor principal */
+.container-404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: var(--background-color);
+  padding: 20px;
+}
+
+/* Imagen 404 */
+.container-404 img {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+/* Título 404 */
+.title-404 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+/* Texto descriptivo */
+.text-404 {
+  font-size: 1.2rem;
+  color: var(--two-color);
+  margin-bottom: 30px;
+}
+
+/* Botón de regreso */
+.button-404 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.button-404:hover {
+  background-color: #0056b3;
+}
